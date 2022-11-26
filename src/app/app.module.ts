@@ -9,6 +9,7 @@ import { FormareservaComponent } from './formareserva/formareserva.component';
 import { OfertahotelComponent } from './ofertahotel/ofertahotel.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     MenuComponent,
     FormareservaComponent,
-    OfertahotelComponent
+    OfertahotelComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

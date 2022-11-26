@@ -14,3 +14,20 @@
 <section>
     <app-ofertahotel></app-ofertahotel>
 </section>
+
+<section>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+            <div class="col" *ngFor="let auxiliar of habitaciones">
+                <div class="card h-100 shadow">
+                    <img src={{auxiliar.fotografias[0]}} alt="" class="img-fluid w-100 h-100">
+                    <h1>{{auxiliar.nombre}}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <app-footer></app-footer>
+</footer>
